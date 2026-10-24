@@ -1,0 +1,25 @@
+body.bg-dark {
+    background-color: #050505 !important; 
+}
+
+footer {
+    background-color: #000000 !important;
+}
+.navbar-brand {
+    font-weight: bold !important;
+}
+body {
+    padding-top: 105px !important;
+}
+body {
+    background-color: #050505 !important;
+    padding-top: 0 !important;
+}
+footer {
+    width: 100vw !important;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+}
