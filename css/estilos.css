@@ -1,0 +1,15 @@
+body {
+    background-color: rgb#f4f4f4;
+}
+
+.card-carro:hover {
+    transform: translateY(-6px);
+}
+
+.card-carro {
+    transition: transform 0.2s;
+}
+
+#cards {
+    margin-top: 10px;
+}
