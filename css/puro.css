@@ -33,6 +33,7 @@ main{
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
 }
 
 footer{
@@ -50,7 +51,7 @@ footer{
 
 .galeria{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 16px;
 }
 
@@ -73,3 +74,6 @@ figcaption{
     padding: 1%;
 }
 
+.oculto {
+    display: none;
+}

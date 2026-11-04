@@ -32,41 +32,48 @@
         <h1>Nossa frota</h1>
         <section>
             <h2>Escolha seu veículo</h2>
+            <div class="filtros">
+                <button type="button" data-filtro="todos">Todos</button>
+                <button type="button" data-filtro="suv">SUV</button>
+                <button type="button" data-filtro="sedan">Sedan</button>
+                <button type="button" data-filtro="economicos">Econômicos</button>
+                <button type="button" data-filtro="utilitarios">Utilitários</button>
+            </div>
             <div class="galeria">
-                <figure>
+                <figure data-categoria="economicos">
                     <img src="img/kwidCard.webp" alt="kwid">
                     <figcaption>
-
+                        Renault Kwid
                     </figcaption>
                 </figure>
-                <figure>
-                    <img src="img/kwidCard.webp" alt="kwid">
+                <figure data-categoria="sedan">
+                    <img src="img/logan.webp" alt="logan">
                     <figcaption>
-                        
+                      Renault Logan  
                     </figcaption>
                 </figure>
-                <figure>
-                    <img src="img/kwidCard.webp" alt="kwid">
+                <figure data-categoria="suv">
+                    <img src="img/duster.webp" alt="duster">
                     <figcaption>
-                        
+                        Renault Duster
                     </figcaption>
                 </figure>
-                <figure>
-                    <img src="img/kwidCard.webp" alt="kwid">
+                <figure data-categoria="economicos">
+                    <img src="img/sandero.jpg" alt="sandero">
                     <figcaption>
-                        
+                        Renault Sandero
                     </figcaption>
                 </figure>
-                <figure>
-                    <img src="img/kwidCard.webp" alt="kwid">
+                <figure data-categoria="economicos">
+                    <img src="img/kardian.webp" alt="kardian">
                     <figcaption>
-                        
+                        Renault Kardian
                     </figcaption>
                 </figure>
-                <figure>
-                    <img src="img/kwidCard.webp" alt="kwid">
+                <figure data-categoria="utilitarios">
+                    <img src="img/oroch.jpg" alt="oroch">
                     <figcaption>
-                        
+                        Renault Oroch
                     </figcaption>
                 </figure>
             </div>
@@ -75,6 +82,7 @@
     <footer>
         <p>© 2026 Mundo dos Carros</p>
     </footer>
+    <script src="js/frota.js"></script>
 </body>
 
 </html>
