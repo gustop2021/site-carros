@@ -77,3 +77,28 @@ figcaption{
 .oculto {
     display: none;
 }
+
+.botoes{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.botoes button{
+    padding: 5px;
+    border: 3px;
+    border-radius: 5%;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.botoes button:hover{
+    background-color: rgb(57, 94, 95);
+}
+
+.botoes button.ativo{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}

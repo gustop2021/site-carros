@@ -13,6 +13,10 @@ function filtrar(filtro) {
 
 botoes.forEach(function (botao) {
     botao.addEventListener("click", function () {
+        botoes.forEach(function (outro) {
+            outro.classList.remove("ativo");
+        })
+        botao.classList.add("ativo");
         filtrar(botao.dataset.filtro);
     });
 });
