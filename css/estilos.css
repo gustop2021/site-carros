@@ -13,3 +13,13 @@ body {
 #cards {
     margin-top: 10px;
 }
+.form-control:hover, .form-select:hover {
+    border-color: #86b7fe;
+ }
+.form-control:focus, .form-select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(134, 183, 254, 0.25);
+ }
+.form-control:invalid, .form-select:invalid {
+    border-color: rgb(160, 95, 95);
+ }
